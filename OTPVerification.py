@@ -9,8 +9,8 @@ def generate_otp():
 
 # Function to send OTP to the user's email
 def send_otp(email, otp):
-    sender_email = "pskreddy028@gmail.com"  # Replace with your email address
-    sender_password = "qjyh vcrq nnqr plcr"  # Replace with your email passkey
+    sender_email = "Replace with your email address" 
+    sender_password = "Replace with your email passkey" 
 
     message = MIMEText(f"Your OTP is: {otp}")
     message['Subject'] = 'OTP Verification'
